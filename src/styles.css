@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face{
+    font-family: 'conforta';
+    src: url('./assets/fonts/comfortaa/Comfortaa-Light.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: conforta, 'Helvetica';
+}
+#main{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 60px auto;
+    grid-template-columns: 1fr;
+}
+
+#footer{
+    background: white;
+    height: 100%;
+}
+
+@media screen and (max-width:700px){
+    #menuIcon{
+        display: initial !important;
+    }
+
+    #aside{
+        display:none !important
+    }
+}

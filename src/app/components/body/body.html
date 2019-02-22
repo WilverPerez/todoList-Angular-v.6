@@ -1,0 +1,14 @@
+<div id="body">
+    <div id="aside">
+        <div id="btnAdd">Nueva nota &nbsp; <i class="icon ion-md-add"></i></div>
+        <ul id="noteList">
+            <li *ngFor="let item of aside.data"> 
+                   <div class="btnList">
+                        {{item}}
+                   </div> 
+            </li>
+        </ul>
+
+    </div>
+    <div class="content"></div>
+</div>

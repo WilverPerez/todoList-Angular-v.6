@@ -1,0 +1,54 @@
+#aside{
+    background: #ECEFF1;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 12px;
+}
+li{
+    list-style: none;
+}
+
+#body{
+    background: #CFD8DC;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 260px auto;
+}
+
+#btnAdd{
+    border: thin solid #512da8;
+    padding: 12px;
+    border-radius: 12px;
+    color:#512da8;
+}
+
+#btnAdd:hover{
+    color:white;
+    background-color: #512da8
+}
+
+.btnList{
+    border: none;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.btnList:hover{
+    color:#512da8;
+}
+
+ul#noteList{
+    border-top: thin solid rgb(183, 194, 199);
+    margin-top: 12px;
+    padding-top: 12px;
+    width: 100%;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
