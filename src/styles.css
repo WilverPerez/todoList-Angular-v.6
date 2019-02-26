@@ -29,4 +29,9 @@
     #aside{
         display:none !important
     }
+
+    #header{
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: 1fr !important;
+    }
 }

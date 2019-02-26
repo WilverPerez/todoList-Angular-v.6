@@ -1,12 +1,17 @@
 .itemsNav{
     display: -webkit-flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 #menuIcon{
     font-size: 30px;
     display: none;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #header{
